@@ -7,9 +7,6 @@ import ScrollToTop from "react-scroll-to-top";
 import { Header } from "../index";
 // SCREENS
 
-
-
-
 export default function MobileLandingPageLayout() {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
@@ -53,6 +50,13 @@ export default function MobileLandingPageLayout() {
     <div>
       <Header />
       MobileLandingPageLayout
+      <section style={{ overflow: "hidden" }}>
+        {/* The section up act just as a wrapper. If the trigger (below) is the
+      first jsx element in the component, you get an error on route change */}
+
+        {/* The div below act just as a trigger. As the doc suggests, the trigger and 
+      the animation should alway be two separated refs */}
+      </section>
       <ScrollToTop smooth />
     </div>
   );
