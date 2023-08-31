@@ -56,6 +56,21 @@ export default function MobileLandingPageLayout() {
 
         {/* The div below act just as a trigger. As the doc suggests, the trigger and 
       the animation should alway be two separated refs */}
+        <div ref={triggerRef}>
+          <div
+            ref={sectionRef}
+            style={{
+              height: "100vh",
+              width: "250vw",
+              // width: "750vw",
+              display: "flex",
+              flexDirection: "row",
+              position: "relative",
+            }}
+          >
+
+          </div>
+        </div>
       </section>
       <ScrollToTop smooth />
     </div>
