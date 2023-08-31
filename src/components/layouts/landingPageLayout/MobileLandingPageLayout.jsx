@@ -4,11 +4,11 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useMediaQuery, useTheme } from "@mui/material";
 import ScrollToTop from "react-scroll-to-top";
 // LAYOUTS
-import { Header } from "../../../components/layouts/index";
+import { Header } from "../index";
 // SCREENS
-import LanguagesSoftwares from "../languagesSoftwares/LanguagesSoftwares";
+import LanguagesSoftwares from "../../../pages/landingPage/languagesSoftwares/LanguagesSoftwares";
 
-export default function DesktopLandingPageLayout() {
+export default function MobileLandingPageLayout() {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
 
@@ -27,7 +27,7 @@ export default function DesktopLandingPageLayout() {
         translateX: 0,
       },
       {
-        translateX: "-310vw",
+        translateX: "-420vw",
         ease: "none",
         duration: 1,
         scrollTrigger: {
@@ -50,7 +50,7 @@ export default function DesktopLandingPageLayout() {
   return (
     <div>
       <Header />
-      DesktopLandingPageLayout
+      MobileLandingPageLpppayqqqqqout
       <section style={{ overflow: "hidden" }}>
         {/* The section up act just as a wrapper. If the trigger (below) is the
       first jsx element in the component, you get an error on route change */}

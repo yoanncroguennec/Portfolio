@@ -1,5 +1,5 @@
-// import DesktopLandingPageLayout from "../../pages/landingPageLayout/DesktopLandingPageLayout";
-// import MobileLandingPageLayout from "../../pages/landingPageLayout/MobileLandingPageLayout";
+import DesktopLandingPageLayout from "./landingPageLayout/DesktopLandingPageLayout";
+import MobileLandingPageLayout from "./landingPageLayout/MobileLandingPageLayout";
 import Header from "./header/Header";
 
-export { Header };
+export { DesktopLandingPageLayout, MobileLandingPageLayout, Header };
