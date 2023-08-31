@@ -6,6 +6,8 @@ import ScrollToTop from "react-scroll-to-top";
 // LAYOUTS
 import { Header } from "../index";
 // SCREENS
+import { LanguagesSoftwares } from "../../../pages/landingPage/index";
+
 
 export default function MobileLandingPageLayout() {
   const theme = useTheme();
@@ -83,7 +85,7 @@ export default function MobileLandingPageLayout() {
                 },
               }}
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptas?
+              <LanguagesSoftwares />
             </div>
           </div>
         </div>
