@@ -6,7 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 // LAYOUTS
 import { Header } from "../../../components/layouts/index";
 // SCREENS
-import LanguagesSoftwares from "../languagesSoftwares/LanguagesSoftwares";
+import { LanguagesSoftwares } from "../index";
 
 export default function DesktopLandingPageLayout() {
   const theme = useTheme();
