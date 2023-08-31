@@ -6,7 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 // LAYOUTS
 import { Header } from "../index";
 // SCREENS
-
+import Test from "./Test"
 
 
 export default function DesktopLandingPageLayout() {
@@ -85,8 +85,7 @@ export default function DesktopLandingPageLayout() {
                 },
               }}
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur, voluptas?
+              <Test />
             </div>
           </div>
         </div>
