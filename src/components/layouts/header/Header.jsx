@@ -14,7 +14,7 @@ import { Freehand } from "@next/font/google";
 // UTILS CONTEXTS
 // import { ToggleLanguagesContext } from "../../../utils/contexts/ToggleLangagesContext";
 // DATA
-import { dataHeaderLanguages } from "../../../utils/assets/data/languages/Header";
+// import { dataHeaderLanguages } from "../../../utils/assets/data/languages/Header";
 import Image from "next/image";
 import InfoPersonnal from "./InfoPersonnal";
 import Link from "next/link";
@@ -147,7 +147,7 @@ export default function Header() {
                 deleteSpeed={50}
                 delaySpeed={10}
                 typeSpeed={20}
-                words={[`${dataHeaderLanguages.scrollingText1}`]}
+                // words={[`${dataHeaderLanguages.scrollingText1}`]}
                 // words={[
                 //   `${dataHeaderLanguages[lang].scrollingText1}`,
                 //   `${dataHeaderLanguages[lang].scrollingText2}`,
