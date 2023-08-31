@@ -6,9 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 // LAYOUTS
 import { Header } from "../index";
 // SCREENS
-import {
-  Contact,
-} from "../../../pages/landingPage/index";
+
 
 
 
@@ -55,7 +53,6 @@ export default function MobileLandingPageLayout() {
     <div>
       <Header />
       MobileLandingPageLayout
-      <Contact />
       <ScrollToTop smooth />
     </div>
   );
