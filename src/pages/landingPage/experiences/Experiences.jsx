@@ -17,7 +17,7 @@ import {
   Typography,
 } from "@mui/material";
 // UTILS CONTEXTS
-import { DarkModeContext } from "../../../utils/contexts/DarkModeContext";
+// import { DarkModeContext } from "../../../utils/contexts/DarkModeContext";
 
 //////////////////// EXPORT FUNCTION ////////////////////
 export default function Experiences() {
@@ -63,7 +63,7 @@ export default function Experiences() {
 
   //////////////////// JS ////////////////////
 
-  const [darkMode] = useContext(DarkModeContext);
+//   const [darkMode] = useContext(DarkModeContext);
 
   //////////////////// RETURN ////////////////////
   return <div>Experiences</div>;
