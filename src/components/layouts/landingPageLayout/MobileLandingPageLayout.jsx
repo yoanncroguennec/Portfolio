@@ -8,8 +8,8 @@ import { Header } from "../index";
 // SCREENS
 import LanguagesSoftwares from "../../../pages/landingPage/languagesSoftwares/LanguagesSoftwares";
 import Experiences from "../../../pages/landingPage/experiences/Experiences";
-// import VideoProduction from "../../../pages/landingPage/videoProduction/VideoProduction";
-// import Hobbies from "../../../pages/landingPage/hobbies/Hobbies";
+import VideoProduction from "../../../pages/landingPage/videoProduction/VideoProduction";
+import Hobbies from "../../../pages/landingPage/hobbies/Hobbies";
 // COMMONS
 import {
   ListProjectsVSMobile,
@@ -77,9 +77,9 @@ export default function MobileLandingPageLayout() {
               position: "relative",
             }}
           >
-                          <div style={{ width: "100vw" }}>
-                <ListProjectsVSMobile />
-              </div>
+            <div style={{ width: "100vw" }}>
+              <ListProjectsVSMobile />
+            </div>
             <div
               style={{
                 alignItems: "center",
@@ -108,6 +108,30 @@ export default function MobileLandingPageLayout() {
               }}
             >
               <Experiences />
+            </div>
+            <div
+              style={{
+                alignItems: "center",
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                width: "150vw",
+              }}
+            >
+              <VideoProduction />
+            </div>
+            <div
+              style={{
+                // alignItems: "center",
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                width: "150vw",
+              }}
+            >
+              <Hobbies />
             </div>
           </div>
         </div>
