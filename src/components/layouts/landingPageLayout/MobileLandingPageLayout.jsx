@@ -77,7 +77,7 @@ export default function MobileLandingPageLayout() {
               position: "relative",
             }}
           >
-                          <div style={{ width: "100vw" }}>
+                          {/* <div style={{ width: "100vw" }}>
                 <ListProjectsVSMobile />
               </div>
             <div
@@ -108,30 +108,6 @@ export default function MobileLandingPageLayout() {
               }}
             >
               <Experiences />
-            </div>
-            {/* <div
-              style={{
-                alignItems: "center",
-                height: "100vh",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                width: "150vw",
-              }}
-            >
-              <VideoProduction />
-            </div>
-            <div
-              style={{
-                // alignItems: "center",
-                height: "100vh",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                width: "150vw",
-              }}
-            >
-              <Hobbies />
             </div> */}
           </div>
         </div>
