@@ -10,6 +10,10 @@ import LanguagesSoftwares from "../../../pages/landingPage/languagesSoftwares/La
 import Experiences from "../../../pages/landingPage/experiences/Experiences";
 // import VideoProduction from "../../../pages/landingPage/videoProduction/VideoProduction";
 // import Hobbies from "../../../pages/landingPage/hobbies/Hobbies";
+// COMMONS
+import {
+  ListProjectsVSDesktop,
+} from "@/components/common/index";
 
 
 export default function DesktopLandingPageLayout() {
@@ -73,6 +77,19 @@ export default function DesktopLandingPageLayout() {
               position: "relative",
             }}
           >
+            <div
+              style={{
+                alignItems: "center",
+                background: "red",
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                width: "100vw",
+              }}
+            >
+              <ListProjectsVSDesktop />
+            </div>
             <div
               style={{
                 alignItems: "center",

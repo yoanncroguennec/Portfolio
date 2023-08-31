@@ -10,6 +10,10 @@ import LanguagesSoftwares from "../../../pages/landingPage/languagesSoftwares/La
 import Experiences from "../../../pages/landingPage/experiences/Experiences";
 // import VideoProduction from "../../../pages/landingPage/videoProduction/VideoProduction";
 // import Hobbies from "../../../pages/landingPage/hobbies/Hobbies";
+// COMMONS
+import {
+  ListProjectsVSMobile,
+} from "@/components/common/index";
 
 
 export default function MobileLandingPageLayout() {
@@ -73,6 +77,9 @@ export default function MobileLandingPageLayout() {
               position: "relative",
             }}
           >
+                          <div style={{ width: "100vw" }}>
+                <ListProjectsVSMobile />
+              </div>
             <div
               style={{
                 alignItems: "center",
