@@ -50,7 +50,7 @@ export default function MobileLandingPageLayout() {
   return (
     <div>
       <Header />
-      MobileLandingPageLayout
+      MobileLandingPageLayqqqqqout
       <section style={{ overflow: "hidden" }}>
         {/* The section up act just as a wrapper. If the trigger (below) is the
       first jsx element in the component, you get an error on route change */}
