@@ -7,6 +7,7 @@ import LanguagesSoftwares from "./languagesSoftwares/LanguagesSoftwares";
 import Experiences from "./experiences/Experiences";
 import VideoProduction from "./videoProduction/VideoProduction";
 import Hobbies from "./hobbies/Hobbies";
+import Contact from "./contact/Contact";
 // COMMONS
 import {
   ListProjectsVSMobile,
@@ -115,6 +116,7 @@ export default function LandingPageContent({ triggerRef, sectionRef }) {
           </div>
         </div>
       </section>
+      <Contact />
       <ScrollToTop smooth />
     </div>
   );
