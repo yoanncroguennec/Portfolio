@@ -66,5 +66,97 @@ export default function Experiences() {
 //   const [darkMode] = useContext(DarkModeContext);
 
   //////////////////// RETURN ////////////////////
-  return <div>Experiences</div>;
+  return (
+    <RootExperiences id='experienceTraining'>
+      <Typography
+        align='center'
+        style={{
+        //   color: darkMode ? "#000" : "#FFF",
+          fontFamily: "'Dancing Script', cursive",
+          margin: "15px",
+        }}
+        variant={matches ? "h4" : "h3"}
+      >
+        Expériences & Formations
+      </Typography>
+      <BoxCard>
+        <Timeline position='alternate'>
+          <TimelineItem>
+            <TimelineOppositeContent color='text.secondary'>
+              Mars 2023 - A aujourd&apos;hui
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot color='secondary' variant='outlined' />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              AutoFormation Next JS (Clone Netflix/Airbnb, Application Crud et
+              authentification)
+            </TimelineContent>
+          </TimelineItem>
+
+          <TimelineItem>
+            <TimelineOppositeContent color='text.secondary'>
+              Janvier 2023 - Mars 2023
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot color='secondary' variant='outlined' />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              Formation React JS/Native,
+              <br />
+              Le réacteur (Paris, 75010)
+            </TimelineContent>
+          </TimelineItem>
+
+          <TimelineItem>
+            <TimelineOppositeContent color='text.secondary'>
+              2020-2021
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot color='secondary' variant='outlined' />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              Formation Développpeur Web et Web mobile
+              <br />
+              Callac Soft Collège (Callac, 22160)
+            </TimelineContent>
+          </TimelineItem>
+
+          <TimelineItem>
+            <TimelineOppositeContent color='text.secondary'>
+              2012 - 2020
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot color='secondary' variant='outlined' />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              Employé - Auxiliaire de vie
+              <br />
+              Adhap Services (Saint-Brieuc, 22000)
+            </TimelineContent>
+          </TimelineItem>
+
+          <TimelineItem>
+            <TimelineOppositeContent color='text.secondary'>
+              2014
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot color='secondary' variant='outlined' />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              Producteur/Scénariste Audiovisuelle à son compte
+              <br />
+              Réalisation d’un court-métrage contre les Violences Conjugales
+              <br /> (Saint-Brieuc, 22000)
+            </TimelineContent>
+          </TimelineItem>
+        </Timeline>
+      </BoxCard>
+    </RootExperiences>
+  );
 }
