@@ -70,6 +70,24 @@ export default function DesktopLandingPageLayout() {
               position: "relative",
             }}
           >
+            <div
+              style={{
+                alignItems: "center",
+                // background: "red",
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                width: "80vw",
+                [theme.breakpoints.down("sm")]: {
+                  // background: "red",
+                  width: "450vw",
+                },
+              }}
+            >
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, voluptas?
+            </div>
           </div>
         </div>
       </section>
