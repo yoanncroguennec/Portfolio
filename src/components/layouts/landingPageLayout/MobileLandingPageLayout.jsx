@@ -59,13 +59,13 @@ export default function MobileLandingPageLayout() {
     <div>
       <Header />
       MobileLandingPageLpppayqqqqqout
-      <section style={{ overflow: "hidden" }}>
+      {/* <section style={{ overflow: "hidden" }}> */}
         {/* The section up act just as a wrapper. If the trigger (below) is the
       first jsx element in the component, you get an error on route change */}
 
         {/* The div below act just as a trigger. As the doc suggests, the trigger and 
       the animation should alway be two separated refs */}
-        <div ref={triggerRef}>
+        {/* <div ref={triggerRef}>
           <div
             ref={sectionRef}
             style={{
@@ -76,7 +76,7 @@ export default function MobileLandingPageLayout() {
               flexDirection: "row",
               position: "relative",
             }}
-          >
+          > */}
                           {/* <div style={{ width: "100vw" }}>
                 <ListProjectsVSMobile />
               </div>
@@ -109,9 +109,9 @@ export default function MobileLandingPageLayout() {
             >
               <Experiences />
             </div> */}
-          </div>
+          {/* </div>
         </div>
-      </section>
+      </section> */}
       <ScrollToTop smooth />
     </div>
   );
