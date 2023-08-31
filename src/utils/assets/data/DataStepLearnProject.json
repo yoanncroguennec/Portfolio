@@ -1,0 +1,3 @@
+{
+  "__html": "Les différents étapes : J'ai commencé en React JS : Créer des appels API ('themealdb', 'thecocktaildb', 'les drapeaux'). J'ai commencé par créer un Todo List MERN. Ensuite je suis passé sur Next JS : de même j'ai commencé par créer un application faisant appel à l'api 'OpenWeatherMap'. J'ai créer une 'todolist', d'abord sans Base de données, afin de comprendre le fonctionnement de Next JS, puis après avec une Base de Données, tout en rajoutant des fonctionnalités 'trie par ordre alphabétique', 'ranger les notes dans des dossier pour mieux  classer', etc... "
+}
