@@ -6,7 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 // LAYOUTS
 import { Header } from "../../../components/layouts/index";
 // SCREENS
-import { LanguagesSoftwares } from "../index";
+import LanguagesSoftwares from "../languagesSoftwares/LanguagesSoftwares";
 
 
 export default function MobileLandingPageLayout() {
