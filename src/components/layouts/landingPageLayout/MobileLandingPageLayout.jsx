@@ -7,6 +7,10 @@ import ScrollToTop from "react-scroll-to-top";
 import { Header } from "../index";
 // SCREENS
 import LanguagesSoftwares from "../../../pages/landingPage/languagesSoftwares/LanguagesSoftwares";
+import Experiences from "../../../pages/landingPage/experiences/Experiences";
+import VideoProduction from "../../../pages/landingPage/videoProduction/VideoProduction";
+import Hobbies from "../../../pages/landingPage/hobbies/Hobbies";
+
 
 export default function MobileLandingPageLayout() {
   const theme = useTheme();
@@ -85,6 +89,42 @@ export default function MobileLandingPageLayout() {
               }}
             >
               <LanguagesSoftwares />
+            </div>
+            <div
+              style={{
+                alignItems: "center",
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                width: "150vw",
+              }}
+            >
+              <Experiences />
+            </div>
+            <div
+              style={{
+                alignItems: "center",
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                width: "150vw",
+              }}
+            >
+              <VideoProduction />
+            </div>
+            <div
+              style={{
+                // alignItems: "center",
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                width: "150vw",
+              }}
+            >
+              <Hobbies />
             </div>
           </div>
         </div>
