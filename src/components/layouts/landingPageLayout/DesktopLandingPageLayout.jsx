@@ -6,7 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 // LAYOUTS
 import { Header } from "../index";
 // SCREENS
-import Test from "./Test"
+import LanguagesSoftwares from "./LanguagesSoftwares";
 
 
 export default function DesktopLandingPageLayout() {
@@ -85,7 +85,7 @@ export default function DesktopLandingPageLayout() {
                 },
               }}
             >
-              <Test />
+              <LanguagesSoftwares />
             </div>
           </div>
         </div>

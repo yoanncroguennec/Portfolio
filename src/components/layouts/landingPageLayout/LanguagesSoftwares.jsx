@@ -16,7 +16,7 @@ import { dataLangagesSoftwares } from "../../../utils/assets/data/DataLangagesSo
 import Image from "next/image";
 
 
-export default function Test() {
+export default function LanguagesSoftwares() {
   //////////////////// RESPONSIVES ////////////////////
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
@@ -76,7 +76,7 @@ export default function Test() {
       return checkNumber(newIndex);
     });
   };
-  
+
   return (
     <div id='technologies'>
       <Image
