@@ -8,8 +8,8 @@ import { Header } from "../index";
 // SCREENS
 import LanguagesSoftwares from "../../../pages/landingPage/languagesSoftwares/LanguagesSoftwares";
 import Experiences from "../../../pages/landingPage/experiences/Experiences";
-import VideoProduction from "../../../pages/landingPage/videoProduction/VideoProduction";
-import Hobbies from "../../../pages/landingPage/hobbies/Hobbies";
+// import VideoProduction from "../../../pages/landingPage/videoProduction/VideoProduction";
+// import Hobbies from "../../../pages/landingPage/hobbies/Hobbies";
 
 
 export default function MobileLandingPageLayout() {
@@ -102,7 +102,7 @@ export default function MobileLandingPageLayout() {
             >
               <Experiences />
             </div>
-            <div
+            {/* <div
               style={{
                 alignItems: "center",
                 height: "100vh",
@@ -125,7 +125,7 @@ export default function MobileLandingPageLayout() {
               }}
             >
               <Hobbies />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
