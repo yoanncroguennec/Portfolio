@@ -121,7 +121,7 @@ export default function Contact() {
         width: "100vw",
       }}
     >
-      <TypoTitlePage variant={matches ? "h4" : "h2"}>Contact</TypoTitlePage>
+      <TypoTitlePage variant={matches ? "h4" : "h2"}>TEST Contact</TypoTitlePage>
       <Image
         alt='personnage2D Contact'
         height={300}
