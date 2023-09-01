@@ -1,13 +1,12 @@
-import { Typography } from "@mui/material";
-import {
-  nextJS,
-} from "@/utils/assets/data/projects/mobile/DataProjectsNextJS";
-import Link from "next/link";
 import React, { useState } from "react";
+import { Typography } from "@mui/material";
+// NEXT
+import Link from "next/link";
+// UTILS DATA
+import { nextJS } from "@/utils/assets/data/index";
 // ICONS
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Drop } from "./Styles";
-
 
 export default function Nextjs() {
   // ****************** PAGINATIONS ****************** //

@@ -1,8 +1,8 @@
 "use client";
 
-import { Box, styled, useTheme, Tab } from "@mui/material";
+import { Box, styled, useTheme, Tab, Tabs, withStyles } from "@mui/material";
 import { TabContext, TabList, TabPanel } from "@mui/lab";
-import React, { SyntheticEvent, useState, useEffect } from "react";
+import React, { SyntheticEvent, useState } from "react";
 //
 import {
   TabProjectsNextJS,
@@ -58,12 +58,22 @@ export default function ListProjectsVSDesktop() {
     setValue(newValue);
   }
 
+
   return (
     <RootProjects id='myProjects'>
       <TabContext value={value}>
-        <Box sx={{ borderBottom: 1, borderColor: "divider", width: "500px" }}>
+        <Box
+          sx={{
+            borderBottom: 1,
+            borderColor: "divider",
+            width: "450px",
+            margin: "0 auto",
+            paddingTop: "55px"
+          }}
+        >
           <TabList
-            aria-label='Tabs Exemple'
+            // aria-label='Tabs Exemple'
+            aria-label='disabled tabs example'
             onChange={handleChange}
             textColor='secondary'
             // centered

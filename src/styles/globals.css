@@ -8,7 +8,7 @@ body {
 }
 
 /* STYLES BTNS CATEGORIES PROJECTS */
-button {
+/* button {
   background: #FFF;
   border: 3px solid #01B4FF;
   border-radius: 8px;
@@ -16,18 +16,32 @@ button {
   height: 3rem;
   width: 5rem;
   margin: 0px 15px;
-}
+} */
 
 button:hover {
   transform: scale(1.1);
 }
 
 button:disabled {
+  --dot-bg: #A9A9A9;
+    --dot-color: #000;
+    --dot-size: 3px;
+    --dot-space: 22px;
+    background:
+      linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      var(--dot-color);
+      border-radius: 50% 50% 0% 0%;
+  /* background-color: #01B4FF;
+  box-shadow: 0 0 12px #01B4FF;
+  color: #FFF; */
+}
+
+/* button:disabled {
   background-color: #01B4FF;
   box-shadow: 0 0 12px #01B4FF;
   color: #FFF;
-}
-
+} */
 
 
 /* HOBBIES */

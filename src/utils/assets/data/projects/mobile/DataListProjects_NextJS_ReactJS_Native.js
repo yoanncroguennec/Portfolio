@@ -1,8 +1,11 @@
 // ICONS
 import { FaStripe, FaGithub, FaReact, FaSass } from "react-icons/fa";
-import { SiMui, SiNextdotjs, SiPrisma, SiMongodb } from "react-icons/si";
+import { SiNextdotjs, SiPrisma, SiMongodb } from "react-icons/si";
 
-export const dataProjectsNextJS = [
+/////////////////////////////////////////////////////
+/////////////// LIST PROJECTS NEXT JS ///////////////
+/////////////////////////////////////////////////////
+export const nextJS = [
   {
     // Styles
     borderRadiusNextJS: "47% 53% 70% 30% / 30% 43% 57% 70%",
@@ -34,7 +37,7 @@ export const dataProjectsNextJS = [
     numberBoxNextJS: "02",
     nameProjectNextJS: "Clone Airbnb",
     imgProjectNextJS: "testtest",
-    iconsTechnosProjectNextJS: [
+    iconsTechnosProject: [
       {
         icon: <SiNextdotjs color='#000' size={45} />,
       },
@@ -54,13 +57,13 @@ export const dataProjectsNextJS = [
   },
   {
     // Styles
-    borderRadiusNextJS: "71% 29% 21% 79% / 56% 30% 70% 44%",
-    colorNextJS: "#845EC2",
+    borderRadiusNextJS: "35% 65% 31% 69% / 57% 59% 41% 43%",
+    colorNextJS: "#01B4FF",
     // Data
     numberBoxNextJS: "03",
     nameProjectNextJS: "Next Auth 13 - Prisma - MERN",
     imgProjectNextJS: "testtest",
-    iconsTechnosProjectNextJS: [
+    iconsTechnosProject: [
       {
         icon: <SiNextdotjs color='#000' size={45} />,
       },
@@ -90,7 +93,7 @@ export const dataProjectsNextJS = [
     numberBoxNextJS: "04",
     nameProjectNextJS: "Ecommerce - Stripe",
     imgProjectNextJS: "testtest",
-    iconsTechnosProjectNextJS: [
+    iconsTechnosProject: [
       {
         icon: <SiNextdotjs color='#000' size={45} />,
       },
@@ -111,13 +114,13 @@ export const dataProjectsNextJS = [
   },
   {
     // Styles
-    borderRadiusNextJS: "35% 65% 31% 69% / 57% 59% 41% 43%",
-    colorNextJS: "#01B4FF",
+    borderRadiusNextJS: "71% 29% 21% 79% / 56% 30% 70% 44%",
+    colorNextJS: "#845EC2",
     // Data
     numberBoxNextJS: "05",
     nameProjectNextJS: "CRUD",
     imgProjectNextJS: "testtest",
-    iconsTechnosProjectNextJS: [
+    iconsTechnosProject: [
       {
         icon: <SiNextdotjs color='#000' size={45} />,
       },
@@ -135,5 +138,115 @@ export const dataProjectsNextJS = [
     nameURLGitNextJS: "Github",
     linkGitNextJS:
       "https://github.com/yoanncroguennec/Project16_MERN_CRUD_NEXT_AUTH_ADMIN_NextJS_13",
+  },
+];
+
+//////////////////////////////////////////////////////
+/////////////// LIST PROJECTS REACT JS ///////////////
+//////////////////////////////////////////////////////
+export const reactJS = [
+  {
+    // Styles
+    borderRadiusReactJS: "47% 53% 70% 30% / 30% 43% 57% 70%",
+    colorReactJS: "#FF0F5B",
+    // Data
+    numberBoxReactJS: "01",
+    nameProjectReactJS: "Ecommerce",
+    imgProjectReactJS: "testtest",
+    iconsTechnosProjectReactJS: ["", "", ""],
+    nameURlSiteReactJS: "Site Internet",
+    urlSiteReactJS: "",
+    nameURLGitReactJS: "Github",
+    linkGitReactJS: "",
+  },
+  {
+    // Styles
+    borderRadiusReactJS: "73% 27% 59% 41% / 57% 59% 41% 43%",
+    colorReactJS: "#BE01FE",
+    // Data
+    numberBoxReactJS: "02",
+    nameProjectReactJS: "API Cocktails, Recettes, Pays",
+    imgProjectReactJS: "testtest",
+    iconsTechnosProjectReactJS: ["", "", ""],
+    nameURlSiteReactJS: "Site Internet",
+    urlSiteReactJS: "",
+    nameURLGitReactJS: "Github",
+    linkGitReactJS: "",
+  },
+  {
+    // Styles
+    borderRadiusReactJS: "35% 65% 31% 69% / 57% 59% 41% 43%",
+    colorReactJS: "#01B4FF",
+    // Data
+    numberBoxReactJS: "03",
+    nameProjectReactJS: "Clone Netflix",
+    imgProjectReactJS: "testtest",
+    iconsTechnosProjectReactJS: ["", "", ""],
+    nameURlSiteReactJS: "Site Internet",
+    urlSiteReactJS: "",
+    nameURLGitReactJS: "Github",
+    linkGitReactJS: "",
+  },
+  {
+    // Styles
+    borderRadiusReactJS: "71% 29% 21% 79% / 56% 30% 70% 44%",
+    colorReactJS: "#845EC2",
+    // Data
+    numberBoxReactJS: "04",
+    nameProjectReactJS: "wwwwwwwwwwwww",
+    imgProjectReactJS: "testtest",
+    iconsTechnosProjectReactJS: ["", "", ""],
+    nameURlSiteReactJS: "Site Internet",
+    urlSiteReactJS: "",
+    nameURLGitReactJS: "Github",
+    linkGitReactJS: "",
+  },
+  {
+    // Styles
+    borderRadiusReactJS: "71% 29% 21% 79% / 74% 69% 31% 26%",
+    colorReactJS: "#3596B5",
+    // Data
+    numberBoxReactJS: "05",
+    nameProjectReactJS: "eeeeeeeeeeee",
+    imgProjectReactJS: "testtest",
+    iconsTechnosProjectReactJS: ["", "", ""],
+    nameURlSiteReactJS: "Site Internet",
+    urlSiteReactJS: "",
+    nameURLGitReactJS: "Github",
+    linkGitReactJS: "",
+  },
+  {
+    // Styles
+    borderRadiusReactJS: "23% 77% 21% 79% / 74% 23% 77% 26%",
+    colorReactJS: "#FF9671",
+    // Data
+    numberBoxReactJS: "06",
+    nameProjectReactJS: "rrrrrrrrrrrrrrrr",
+    imgProjectReactJS: "testtest",
+    iconsTechnosProjectReactJS: ["", "", ""],
+    nameURlSiteReactJS: "Site Internet",
+    urlSiteReactJS: "",
+    nameURLGitReactJS: "Github",
+    linkGitReactJS: "",
+  },
+];
+
+//////////////////////////////////////////////////////
+///////////// LIST PROJECTS REACT NATIVE /////////////
+//////////////////////////////////////////////////////
+export const reactNative = [
+  {
+    // Styles
+    borderRadiusReactNative: "",
+    colorReactNative: "",
+    // Data
+    numberBoxReactNative: "01",
+    nameProjectReactNative: "",
+    imgProjectReactNative: "",
+    iconsTechnosProjectReactNative: ["", "", ""],
+    nameURlSiteReactNative: "Site Internet",
+    urlSiteReactNative: "",
+    nameURLGitReactNative: "Github",
+    linkGitReactNative: "",
   },
 ];

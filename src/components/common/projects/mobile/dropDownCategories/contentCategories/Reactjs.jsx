@@ -1,9 +1,9 @@
-import {
-  reactJS,
-} from "@/utils/assets/data/projects/mobile/DataProjectsNextJS";
-import { Typography } from "@mui/material";
 import React, { useState } from "react";
+import { Typography } from "@mui/material";
+// NEXT
 import Link from "next/link";
+// UTILS DATA
+import { reactJS } from "@/utils/assets/data/index";
 // ICONS
 import { FaChevronLeft, FaChevronRight, FaReact, FaSass } from "react-icons/fa";
 import { Drop } from './Styles';
