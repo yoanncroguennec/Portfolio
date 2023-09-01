@@ -110,9 +110,10 @@ export default function Header() {
           autoPlay
           loop
           muted
-          src={
-            "https://res.cloudinary.com/dky2vpnyr/video/upload/v1680543687/MyPortfolio/BgVideoHeader_xvvhmu.mp4"
-          }
+          src='/assets/videos/BgVideoHeader_xvvhmu.mp4'
+          // src={
+          //   "https://res.cloudinary.com/dky2vpnyr/video/upload/v1680543687/MyPortfolio/BgVideoHeader_xvvhmu.mp4"
+          // }
           style={{
             height: `${matches ? "150vh" : "100vh"}`,
             objectFit: "cover",

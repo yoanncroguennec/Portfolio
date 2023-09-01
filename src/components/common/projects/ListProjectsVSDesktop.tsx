@@ -25,7 +25,7 @@ import "tippy.js/dist/tippy.css";
 
 // STYLES
 const RootProjects = styled(Box)(({ theme }) => ({
-  background: "blue",
+  // background: "blue",
   height: "100vh",
   width: "100vw",
 }));

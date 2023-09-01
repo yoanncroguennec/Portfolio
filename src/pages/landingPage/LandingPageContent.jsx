@@ -48,7 +48,7 @@ export default function LandingPageContent({ triggerRef, sectionRef }) {
                 <div
                   style={{
                     alignItems: "center",
-                    background: "red",
+                    // background: "red",
                     height: "100vh",
                     display: "flex",
                     flexDirection: "column",
