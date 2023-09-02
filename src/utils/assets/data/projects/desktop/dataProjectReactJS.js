@@ -10,7 +10,7 @@ export const dataProjectReactJS = [
     // Data
     numberBox: "01",
     nameProject: "Clone Netflix (React JS)",
-    imgProject: "testtest",
+    imgProject: "",
     iconsTechnosProject: [
       { icon: <FaReact color='#0080FF' size={45} /> },
       {
@@ -21,9 +21,10 @@ export const dataProjectReactJS = [
       },
     ],
     nameURlSite: "Site Internet",
-    urlSite: "",
+    urlSite: "https://project7-react-js-clone-netflix.vercel.app/",
     nameURLGit: "Github",
-    linkGit: "",
+    linkGit:
+      "https://github.com/yoanncroguennec/Project7_React_js_Clone_Netflix",
   },
   {
     // Styles
@@ -31,8 +32,8 @@ export const dataProjectReactJS = [
     color: "#BE01FE",
     // Data
     numberBox: "02",
-    nameProject: "Clone Delivroo (React JS) ",
-    imgProject: "testtest",
+    nameProject: "Clone Delivroo (React JS)",
+    imgProject: "",
     iconsTechnosProject: [
       { icon: <FaReact color='#0080FF' size={45} /> },
       {
@@ -43,9 +44,10 @@ export const dataProjectReactJS = [
       },
     ],
     nameURlSite: "Site Internet",
-    urlSite: "",
+    urlSite: "https://project2-react-js-clone-delivroo.vercel.app/",
     nameURLGit: "Github",
-    linkGit: "",
+    linkGit:
+      "https://github.com/yoanncroguennec/Project2_React_js_Clone_Delivroo",
   },
   // {
   //   // Styles

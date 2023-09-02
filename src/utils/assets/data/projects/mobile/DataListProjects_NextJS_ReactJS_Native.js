@@ -1,6 +1,6 @@
 // ICONS
 import { FaStripe, FaGithub, FaReact, FaSass } from "react-icons/fa";
-import { SiNextdotjs, SiPrisma, SiMongodb } from "react-icons/si";
+import { SiNextdotjs, SiPrisma, SiMongodb, SiMui } from "react-icons/si";
 
 /////////////////////////////////////////////////////
 /////////////// LIST PROJECTS NEXT JS ///////////////
@@ -151,13 +151,21 @@ export const reactJS = [
     colorReactJS: "#FF0F5B",
     // Data
     numberBoxReactJS: "01",
-    nameProjectReactJS: "Ecommerce",
-    imgProjectReactJS: "testtest",
-    iconsTechnosProjectReactJS: ["", "", ""],
+    nameProjectReactJS: "Clone Netflix (React JS)",
+    imgProjectReactJS: "",
+    iconsTechnosProjectReactJS: [
+      { icon: <FaReact color='#0080FF' size={45} /> },
+      {
+        icon: <FaGithub color='#000' size={40} />,
+      },
+      {
+        icon: <SiMui color='#0080FF' size={40} />,
+      },
+    ],
     nameURlSiteReactJS: "Site Internet",
-    urlSiteReactJS: "",
+    urlSiteReactJS: "https://project7-react-js-clone-netflix.vercel.app/",
     nameURLGitReactJS: "Github",
-    linkGitReactJS: "",
+    linkGitReactJS: "https://github.com/yoanncroguennec/Project7_React_js_Clone_Netflix",
   },
   {
     // Styles
@@ -165,70 +173,78 @@ export const reactJS = [
     colorReactJS: "#BE01FE",
     // Data
     numberBoxReactJS: "02",
-    nameProjectReactJS: "API Cocktails, Recettes, Pays",
+    nameProjectReactJS: "Clone Delivroo (React JS)",
     imgProjectReactJS: "testtest",
-    iconsTechnosProjectReactJS: ["", "", ""],
+    iconsTechnosProjectReactJS: [
+      { icon: <FaReact color='#0080FF' size={45} /> },
+      {
+        icon: <FaGithub color='#000' size={40} />,
+      },
+      {
+        icon: <SiMui color='#0080FF' size={40} />,
+      },
+    ],
     nameURlSiteReactJS: "Site Internet",
-    urlSiteReactJS: "",
+    urlSiteReactJS: "https://project2-react-js-clone-delivroo.vercel.app/",
     nameURLGitReactJS: "Github",
-    linkGitReactJS: "",
+    linkGitReactJS: "https://github.com/yoanncroguennec/Project2_React_js_Clone_Delivroo",
   },
-  {
-    // Styles
-    borderRadiusReactJS: "35% 65% 31% 69% / 57% 59% 41% 43%",
-    colorReactJS: "#01B4FF",
-    // Data
-    numberBoxReactJS: "03",
-    nameProjectReactJS: "Clone Netflix",
-    imgProjectReactJS: "testtest",
-    iconsTechnosProjectReactJS: ["", "", ""],
-    nameURlSiteReactJS: "Site Internet",
-    urlSiteReactJS: "",
-    nameURLGitReactJS: "Github",
-    linkGitReactJS: "",
-  },
-  {
-    // Styles
-    borderRadiusReactJS: "71% 29% 21% 79% / 56% 30% 70% 44%",
-    colorReactJS: "#845EC2",
-    // Data
-    numberBoxReactJS: "04",
-    nameProjectReactJS: "wwwwwwwwwwwww",
-    imgProjectReactJS: "testtest",
-    iconsTechnosProjectReactJS: ["", "", ""],
-    nameURlSiteReactJS: "Site Internet",
-    urlSiteReactJS: "",
-    nameURLGitReactJS: "Github",
-    linkGitReactJS: "",
-  },
-  {
-    // Styles
-    borderRadiusReactJS: "71% 29% 21% 79% / 74% 69% 31% 26%",
-    colorReactJS: "#3596B5",
-    // Data
-    numberBoxReactJS: "05",
-    nameProjectReactJS: "eeeeeeeeeeee",
-    imgProjectReactJS: "testtest",
-    iconsTechnosProjectReactJS: ["", "", ""],
-    nameURlSiteReactJS: "Site Internet",
-    urlSiteReactJS: "",
-    nameURLGitReactJS: "Github",
-    linkGitReactJS: "",
-  },
-  {
-    // Styles
-    borderRadiusReactJS: "23% 77% 21% 79% / 74% 23% 77% 26%",
-    colorReactJS: "#FF9671",
-    // Data
-    numberBoxReactJS: "06",
-    nameProjectReactJS: "rrrrrrrrrrrrrrrr",
-    imgProjectReactJS: "testtest",
-    iconsTechnosProjectReactJS: ["", "", ""],
-    nameURlSiteReactJS: "Site Internet",
-    urlSiteReactJS: "",
-    nameURLGitReactJS: "Github",
-    linkGitReactJS: "",
-  },
+  // {
+  //   // Styles
+  //   borderRadiusReactJS: "35% 65% 31% 69% / 57% 59% 41% 43%",
+  //   colorReactJS: "#01B4FF",
+  //   // Data
+  //   numberBoxReactJS: "03",
+  //   nameProjectReactJS: "Clone Netflix",
+  //   imgProjectReactJS: "testtest",
+  //   iconsTechnosProjectReactJS: ["", "", ""],
+  //   nameURlSiteReactJS: "Site Internet",
+  //   urlSiteReactJS: "",
+  //   nameURLGitReactJS: "Github",
+  //   linkGitReactJS: "",
+  // },
+  // {
+  //   // Styles
+  //   borderRadiusReactJS: "71% 29% 21% 79% / 56% 30% 70% 44%",
+  //   colorReactJS: "#845EC2",
+  //   // Data
+  //   numberBoxReactJS: "04",
+  //   nameProjectReactJS: "wwwwwwwwwwwww",
+  //   imgProjectReactJS: "testtest",
+  //   iconsTechnosProjectReactJS: ["", "", ""],
+  //   nameURlSiteReactJS: "Site Internet",
+  //   urlSiteReactJS: "",
+  //   nameURLGitReactJS: "Github",
+  //   linkGitReactJS: "",
+  // },
+  // {
+  //   // Styles
+  //   borderRadiusReactJS: "71% 29% 21% 79% / 74% 69% 31% 26%",
+  //   colorReactJS: "#3596B5",
+  //   // Data
+  //   numberBoxReactJS: "05",
+  //   nameProjectReactJS: "eeeeeeeeeeee",
+  //   imgProjectReactJS: "testtest",
+  //   iconsTechnosProjectReactJS: ["", "", ""],
+  //   nameURlSiteReactJS: "Site Internet",
+  //   urlSiteReactJS: "",
+  //   nameURLGitReactJS: "Github",
+  //   linkGitReactJS: "",
+  // },
+  // {
+  //   // Styles
+  //   borderRadiusReactJS: "23% 77% 21% 79% / 74% 23% 77% 26%",
+  //   colorReactJS: "#FF9671",
+  //   // Data
+  //   numberBoxReactJS: "06",
+  //   nameProjectReactJS: "rrrrrrrrrrrrrrrr",
+  //   imgProjectReactJS: "testtest",
+  //   iconsTechnosProjectReactJS: ["", "", ""],
+  //   nameURlSiteReactJS: "Site Internet",
+  //   urlSiteReactJS: "",
+  //   nameURLGitReactJS: "Github",
+  //   linkGitReactJS: "",
+  // },
 ];
 
 //////////////////////////////////////////////////////
