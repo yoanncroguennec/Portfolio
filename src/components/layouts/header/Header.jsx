@@ -105,7 +105,7 @@ export default function Header() {
   //////////////////// RETURN ////////////////////
   return (
     <Hero id='header'>
-      <ContainerHeader>
+      {/* <ContainerHeader>
         <video
           autoPlay
           loop
@@ -183,7 +183,7 @@ export default function Header() {
             width={matches ? 80 : 100}
           />
         </div>
-      </ContainerHeader>
+      </ContainerHeader> */}
     </Hero>
   );
 }
