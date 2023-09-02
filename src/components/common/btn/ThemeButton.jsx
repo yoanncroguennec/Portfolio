@@ -18,6 +18,7 @@ const ThemeButton = () => {
   return (
     <button
       type='button'
+      style={{ zIndex: 999}}
       // className='flex items-center justify-center rounded-lg p-2 transition-colors hover:bg-zinc-100 dark:hover:bg-zinc-700'
       onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
     >
