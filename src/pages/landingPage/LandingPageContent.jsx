@@ -12,6 +12,7 @@ import Contact from "./contact/Contact";
 import {
   ListProjectsVSMobile,
   ListProjectsVSDesktop,
+  ThemeButton,
 } from "../../components/common/index";
 
 export default function LandingPageContent({ triggerRef, sectionRef }) {
@@ -20,6 +21,7 @@ export default function LandingPageContent({ triggerRef, sectionRef }) {
 
   return (
     <div>
+      <ThemeButton />
       <Header />
       <section style={{ overflow: "hidden" }}>
         {/* The section up act just as a wrapper. If the trigger (below) is the

@@ -9,6 +9,8 @@ import DropDownCategories from "./projects/mobile/dropDownCategories/DropDownCat
 import ListProjectsVSMobile from "./projects/ListProjectsVSMobile";
 import Nextjs from "./projects/mobile/dropDownCategories/contentCategories/Nextjs";
 import Reactjs from "./projects/mobile/dropDownCategories/contentCategories/Reactjs";
+// OTHERS
+import ThemeButton from "./btn/ThemeButton"
 
 export {
   // VS DESKTOP
@@ -22,4 +24,6 @@ export {
   DropDownCategories,
   Nextjs,
   Reactjs,
+  // OTHERS
+  ThemeButton,
 };
