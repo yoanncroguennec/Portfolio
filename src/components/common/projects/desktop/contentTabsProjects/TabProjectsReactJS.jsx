@@ -17,6 +17,7 @@ export default function TabProjectsReactJS() {
       index,
     }) => (
       <ContentTabsProjects
+        key={index}
         borderRadius={borderRadius}
         color={color}
         imgProject={imgProject}
