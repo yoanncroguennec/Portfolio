@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import MuiBreadCrumbs from "../../components/layouts/btns/Mui_BreadCrumbs"
 
 export default function CV_PDF() {
   const containerRef = useRef(null);
@@ -24,5 +25,9 @@ export default function CV_PDF() {
     return () => PSPDFKit && PSPDFKit.unload(container);
   }, []);
 
-  return <div ref={containerRef} style={{ height: "100vh" }} />;
+  return (
+    <><MuiBreadCrumbs />
+      <div ref={containerRef} style={{ height: "100vh" }} />;
+    </>
+  );
 }

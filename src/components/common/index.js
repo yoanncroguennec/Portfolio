@@ -10,7 +10,7 @@ import ListProjectsVSMobile from "./projects/ListProjectsVSMobile";
 import Nextjs from "./projects/mobile/dropDownCategories/contentCategories/Nextjs";
 import Reactjs from "./projects/mobile/dropDownCategories/contentCategories/Reactjs";
 // OTHERS
-import ThemeButton from "./btn/ThemeButton"
+import SharePortfolioViaSocialNetworks from "./popups/SharePortfolioViaSocialNetworks"
 
 export {
   // VS DESKTOP
@@ -25,5 +25,5 @@ export {
   Nextjs,
   Reactjs,
   // OTHERS
-  ThemeButton,
+  SharePortfolioViaSocialNetworks,
 };

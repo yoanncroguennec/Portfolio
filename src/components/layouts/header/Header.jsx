@@ -104,86 +104,91 @@ export default function Header() {
 
   //////////////////// RETURN ////////////////////
   return (
-    <Hero id='header'>
-      {/* <ContainerHeader>
-        <video
-          autoPlay
-          loop
-          muted
-          src='/assets/videos/BgVideoHeader_xvvhmu.mp4'
-          // src={
-          //   "https://res.cloudinary.com/dky2vpnyr/video/upload/v1680543687/MyPortfolio/BgVideoHeader_xvvhmu.mp4"
-          // }
-          style={{
-            height: `${matches ? "150vh" : "100vh"}`,
-            objectFit: "cover",
-            position: "absolute",
-            top: 0,
-            width: "100%",
-            zIndex: "-1",
-          }}
-        />
+    <>
+      <Hero id='header'>
+        <ContainerHeader>
+          <video
+            autoPlay
+            loop
+            muted
+            src='/assets/videos/BgVideoHeader_xvvhmu.mp4'
+            // src={
+            //   "https://res.cloudinary.com/dky2vpnyr/video/upload/v1680543687/MyPortfolio/BgVideoHeader_xvvhmu.mp4"
+            // }
+            style={{
+              height: `${matches ? "150vh" : "100vh"}`,
+              objectFit: "cover",
+              position: "absolute",
+              top: 0,
+              width: "100%",
+              zIndex: "-1",
+            }}
+          />
 
-        {textTopHeader.map((text, index) => (
-          <Typography
-            className={roboto.classesName}
-            key={index}
-            variant={matches ? "h6" : "h4"}
-            color='#FFF'
-            style={{ textShadow: "2px 2px 3px #FF0000" }}
-          >
-            {text}
-          </Typography>
-        ))}
-
-        <Content>
-          <InfoPersonnal />
-
-          <BoxTypeWriter>
-            <Typography variant='subtitle1'>
-              {" "}
-              <Typewriter
-                cursor
-                cursorStyle='_'
-                deleteSpeed={50}
-                delaySpeed={10}
-                typeSpeed={20}
-                words={[
-                  `Je m’appelle Yoann Croguennec, j’ai 37 ans, ayant obtenu un diplôme en tant que développeur web et web mobile, de niveau V, au sein du centre de formation «Callac Soft Collège». A la suite, j’ai continué à m’auto-former en React JS et Native pendant 1 an 1/2, auprès de Site Internet (Udemy, ...) et Youtubeur (SDZ, PrimFX, Waked XY, Les teachers du net, ...), qui m’ont permis de développer mes compétences en tant que développeur web. Puis je suis rentré au centre de formation « Le Réacteur » (75010), afin de renforcer mes connaissances mais également de comprendre certaines parties que j’avais du mal à assimiler. Après, j'ai continué à m'auto-former en Next JS, tout en réalisant différents types de Projets, cités dans mon CV..`,
-                ]}
-                // words={[
-                //   `${dataHeaderLanguages[lang].scrollingText1}`,
-                //   `${dataHeaderLanguages[lang].scrollingText2}`,
-                // ]}
-              />
+          {textTopHeader.map((text, index) => (
+            <Typography
+              className={roboto.classesName}
+              key={index}
+              variant={matches ? "h6" : "h4"}
+              color='#FFF'
+              style={{ textShadow: "2px 2px 3px #FF0000" }}
+            >
+              {text}
             </Typography>
-          </BoxTypeWriter>
+          ))}
 
-          <Image
-            src='/assets/imgs/header/photoProfil.png'
-            alt='Photo Profil'
-            height={matches ? 150 : 200}
-            width={matches ? 150 : 200}
-          />
-        </Content>
+          <Content>
+            <InfoPersonnal />
 
-        <Link href='/cv_pdf/CV_PDF' style={{ cursor: "pointer", zIndex: 999 }}>
+            <BoxTypeWriter>
+              <Typography variant='subtitle1'>
+                {" "}
+                <Typewriter
+                  cursor
+                  cursorStyle='_'
+                  deleteSpeed={50}
+                  delaySpeed={10}
+                  typeSpeed={20}
+                  words={[
+                    `Je m’appelle Yoann Croguennec, j’ai 37 ans, ayant obtenu un diplôme en tant que développeur web et web mobile, de niveau V, au sein du centre de formation «Callac Soft Collège». A la suite, j’ai continué à m’auto-former en React JS et Native pendant 1 an 1/2, auprès de Site Internet (Udemy, ...) et Youtubeur (SDZ, PrimFX, Waked XY, Les teachers du net, ...), qui m’ont permis de développer mes compétences en tant que développeur web. Puis je suis rentré au centre de formation « Le Réacteur » (75010), afin de renforcer mes connaissances mais également de comprendre certaines parties que j’avais du mal à assimiler. Après, j'ai continué à m'auto-former en Next JS, tout en réalisant différents types de Projets, cités dans mon CV..`,
+                  ]}
+                  // words={[
+                  //   `${dataHeaderLanguages[lang].scrollingText1}`,
+                  //   `${dataHeaderLanguages[lang].scrollingText2}`,
+                  // ]}
+                />
+              </Typography>
+            </BoxTypeWriter>
+
+            <Image
+              src='/assets/imgs/header/photoProfil.png'
+              alt='Photo Profil'
+              height={matches ? 150 : 200}
+              width={matches ? 150 : 200}
+            />
+          </Content>
+
+          <Link
+            href='/cv_pdf/CV_PDF'
+            style={{ cursor: "pointer", zIndex: 999 }}
+          >
+            <Typography variant={matches ? "h6" : "h5"} color='#FFF'>
+              CV en PDF
+            </Typography>
+          </Link>
           <Typography variant={matches ? "h6" : "h5"} color='#FFF'>
-            CV en PDF
+            OU EN QR CODE
           </Typography>
-        </Link>
-        <Typography variant={matches ? "h6" : "h5"} color='#FFF'>
-          OU EN QR CODE
-        </Typography>
-        <div className='f'>
-          <Image
-            src='/assets/imgs/header/cv_pdf_codeQR.png'
-            alt='Photo Profil'
-            height={matches ? 80 : 100}
-            width={matches ? 80 : 100}
-          />
-        </div>
-      </ContainerHeader> */}
-    </Hero>
+          <div className='f'>
+            <Image
+              src='/assets/imgs/header/cv_pdf_codeQR.png'
+              alt='Photo Profil'
+              height={matches ? 80 : 100}
+              width={matches ? 80 : 100}
+            />
+          </div>
+        </ContainerHeader>
+      </Hero>
+    </>
   );
 }

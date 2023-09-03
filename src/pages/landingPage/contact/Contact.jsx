@@ -111,6 +111,7 @@ export default function Contact() {
   return (
     // Attention !!! Laisser le style dans la div et pas le transformer en Balise MUI car le formulmaire disfonctionnera !
     <div
+      id='contact'
       style={{
         alignItems: "center",
         display: "flex",
@@ -121,7 +122,9 @@ export default function Contact() {
         width: "100vw",
       }}
     >
-      <TypoTitlePage variant={matches ? "h4" : "h2"}>TEST Contact</TypoTitlePage>
+      <TypoTitlePage variant={matches ? "h4" : "h2"}>
+        TEST Contact
+      </TypoTitlePage>
       <Image
         alt='personnage2D Contact'
         height={300}

@@ -1,6 +1,6 @@
 import { useRef } from "react";
-// import Navbar from "./navbar/Navbar";
-import BtnControlMusic from "./btnControlMusic/BtnControlMusic";
+import BtnControlMusic from "./btns/btnControlMusic/BtnControlMusic";
+import MuiSpeedDial from "./btns/Mui_SpeedDial";
 
 export default function MainLayout({ children }) {
   // "useRef" : Permet de faire référence à un élément DOM, dont il va retourner un objet modifiable dont la propriété "current" est initialiser avec l'argument fourni
@@ -27,8 +27,9 @@ export default function MainLayout({ children }) {
     // "onMouseMove" : Événements HTML de souris
     <div onMouseMove={mousePosition} onclick={mouseClick}>
       <div className='cursor-perso' ref={cursorRef} />
-      {/* <Navbar /> */}
-      <BtnControlMusic />
+      
+      <MuiSpeedDial />
+      {/* <BtnControlMusic /> */}
       {children}
     </div>
   );

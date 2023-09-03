@@ -26,7 +26,7 @@ export default function ContentTabsProjects({
           >
             {numberBox}
           </Typography>
-          <Typography>{nameProject}</Typography>
+          <Typography color="#000">{nameProject}</Typography>
           <Link href={urlSite} target='_blank'>
             <Typography>Site Internet</Typography>
           </Link>

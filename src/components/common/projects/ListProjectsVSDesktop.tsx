@@ -14,6 +14,8 @@ import { SiNextdotjs, SiReact } from "react-icons/si";
 const colorIconNext = "#000";
 const colorIconReact = "#0000FF";
 const sizeIcon = 40;
+import { Drop } from "./StylesTabsProjects";
+
 
 // IMPORT "TIPPY" => SHOW TOOLTIP
 import Tippy from "@tippyjs/react";
@@ -62,7 +64,7 @@ export default function ListProjectsVSDesktop() {
   return (
     <RootProjects id='myProjects'>
       <TabContext value={value}>
-        <Box
+        <Drop
           sx={{
             borderBottom: 1,
             borderColor: "divider",
@@ -77,7 +79,7 @@ export default function ListProjectsVSDesktop() {
             onChange={handleChange}
             textColor='secondary'
             // centered
-            indicatorColor='secondary'
+            indicatorColor='primary'
             variant='scrollable'
             scrollButtons='auto'
           >
@@ -104,7 +106,7 @@ export default function ListProjectsVSDesktop() {
             <Tab label='Tab five' value='5' />
             <Tab label='Tab six' value='6' /> */}
           </TabList>
-        </Box>
+        </Drop>
 
         <TabPanel value='1'>
           <BoxProjects>
