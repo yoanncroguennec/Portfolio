@@ -13,7 +13,7 @@ const actions = [
     icon: <PopupSharePortfolioViaSocialNetworks />,
     name: "Partager Portfolio",
   },
-  { icon: <Navbar />, name: "Menu" },
+  // { icon: <Navbar />, name: "Menu" },
   { icon: <ThemeButton />, name: "Dark Mode" },
 ];
 
