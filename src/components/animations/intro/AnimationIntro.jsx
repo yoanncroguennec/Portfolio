@@ -21,7 +21,9 @@ export default function AnimationIntro() {
         <Image
           alt='Photo Profil'
           className='img'
-          src='/assets/imgs//animations/intro/profile.jpg'
+          height={250}
+          width={250}
+          src='/assets/imgs/animations/intro/profile.jpg'
           style={{
             height: "250px",
             width: "250px",
