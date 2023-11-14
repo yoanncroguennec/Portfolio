@@ -1,17 +1,3 @@
-// import React from 'react'
-// import ThemeButton from "../components/common/btn/ThemeButton"
-// export default function index() {
-//   return (
-//     <div>
-//       <ThemeButton />
-//       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident,
-//       minima.
-//     </div>
-//   );
-// }
-
-
-
 import { useEffect } from "react";
 import { useMediaQuery, useTheme } from "@mui/material";
 import {

@@ -86,7 +86,6 @@ export default function Experiences() {
           <TimelineItem>
             <TimelineOppositeContent color='text.secondary'>
               Janvier 2023 - Mars 2023
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque placeat soluta error exercitationem nulla voluptatibus possimus alias repellendus id et, quo quos delectus non eius harum dolores accusamus sed, cupiditate debitis nostrum repellat reprehenderit. Inventore obcaecati itaque necessitatibus? Ab animi molestias laborum. Dignissimos recusandae corporis in consectetur fuga reiciendis voluptatem laboriosam saepe et reprehenderit! At in consequuntur reprehenderit porro explicabo provident repellat voluptate harum similique distinctio sint magni veniam quidem voluptatem, dolorum enim expedita praesentium illum doloremque! Itaque reiciendis explicabo accusantium eveniet vel aspernatur fuga laborum fugit quam et natus non corrupti quis neque voluptatem quae inventore molestiae, necessitatibus in magnam asperiores, iure dicta dolorum odio. Blanditiis ducimus sed quam eius quibusdam debitis error nulla voluptatibus nesciunt numquam cumque distinctio recusandae reiciendis aspernatur, cupiditate vero tempora dolorem eveniet asperiores. Error rerum tempora id et molestias ipsum temporibus! Eaque accusantium culpa odio, autem ex explicabo quam nulla, distinctio architecto, aliquid quia.
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot color='secondary' variant='outlined' />
