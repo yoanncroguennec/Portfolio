@@ -32,8 +32,8 @@ export default function AnimationIntro() {
         {textIntroAnimation.map(({ letterFirstName, letterLastName }) => (
           <div key={letterFirstName}>
             <div className='tt'>
-              {letterFirstName.map((item) => (
-                <span>{item}</span>
+              {letterFirstName.map((item, index) => (
+                <span key={index}>{item}</span>
               ))}
             </div>
             <div className='oo'>
