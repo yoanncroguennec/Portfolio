@@ -150,7 +150,7 @@ export default function Header() {
                   delaySpeed={10}
                   typeSpeed={20}
                   words={[
-                    `Je m’appelle Yoann Croguennec, j’ai 37 ans, ayant obtenu un diplôme en tant que développeur web et web mobile, de niveau V, au sein du centre de formation «Callac Soft Collège». A la suite, j’ai continué à m’auto-former en React JS et Native pendant 1 an 1/2, auprès de Site Internet (Udemy, ...) et Youtubeur (SDZ, PrimFX, Waked XY, Les teachers du net, ...), qui m’ont permis de développer mes compétences en tant que développeur web. Puis je suis rentré au centre de formation « Le Réacteur » (75010), afin de renforcer mes connaissances mais également de comprendre certaines parties que j’avais du mal à assimiler. Après, j'ai continué à m'auto-former en Next JS, tout en réalisant différents types de Projets, cités dans mon CV..`,
+                    `Je m’appelle Yoann Croguennec, j’ai 37 ans, ayant obtenu un diplôme en tant que développeur web et web mobile, de niveau V, au sein du centre de formation «Callac Soft Collège». A la suite, j’ai continué à m’auto-former en React JS et Native pendant 1 an 1/2, auprès de Site Internet (Udemy, ...) et Youtubeur (SDZ, PrimFX, Waked XY, Les teachers du net, ...), qui m’ont permis de développer mes compétences en tant que développeur web. Puis je suis rentré au centre de formation « Le Réacteur » (75010), afin de renforcer mes connaissances mais également de comprendre certaines parties. Après, j'ai continué à m'auto-former en Next JS, tout en réalisant différents types de Projets, cités dans mon CV..`,
                   ]}
                   // words={[
                   //   `${dataHeaderLanguages[lang].scrollingText1}`,
