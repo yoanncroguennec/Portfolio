@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function AnimationIntro() {
   const textIntroAnimation = [
@@ -29,18 +30,18 @@ export default function AnimationIntro() {
           }}
         />
         {textIntroAnimation.map(({ letterFirstName, letterLastName }) => (
-          <>
+          <div key={letterFirstName}>
             <div className='tt'>
               {letterFirstName.map((item) => (
                 <span>{item}</span>
               ))}
             </div>
             <div className='oo'>
-              {letterLastName.map((item) => (
-                <span>{item}</span>
+              {letterLastName.map((item, index) => (
+                <span key={index}>{item}</span>
               ))}
             </div>
-          </>
+          </div>
         ))}
       </h1>
     </section>
