@@ -17,7 +17,8 @@ export default function AnimationIntro() {
       />
 
       <h1 className='h1'>
-        <img
+        <Image
+          alt='Photo Profil'
           className='img'
           src='/assets/imgs//animations/intro/profile.jpg'
           style={{
