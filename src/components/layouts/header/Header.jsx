@@ -21,7 +21,7 @@ import Link from "next/link";
 
 
 const textTopHeader = [
-  "CROGUENNEC Yoann",
+  "CROGUENNEC Yoann -",
   "DÉV JUNIOR FRONT-END",
   "& BACK-END",
   "React JS & Native",
